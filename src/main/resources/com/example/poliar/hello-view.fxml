@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="pg_inicial" alignment="CENTER" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4ea927;" visible="false">
+         <children>
+            <Label text="POLIAR" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="64.0" />
+               </font></Label>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="244.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 5;" text="ENTRAR" textFill="#4ea927">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CAE5BE;" visible="false">
+         <children>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="520.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;">
+               <children>
+                  <VBox prefHeight="320.0" prefWidth="290.0">
+                     <children>
+                        <HBox prefHeight="50.0" prefWidth="290.0">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="145.0">
+                                 <children>
+                                    <Label text="POLIAR" textFill="#4ea927">
+                                       <font>
+                                          <Font name="Berlin Sans FB Bold" size="18.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="20.0" />
+                                       </HBox.margin></Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="145.0">
+                                 <children>
+                                    <Label text="LOGIN" textFill="#4ea927" underline="true">
+                                       <font>
+                                          <Font name="Berlin Sans FB Bold" size="12.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="15.0" />
+                                       </HBox.margin></Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <VBox alignment="CENTER" prefHeight="270.0" prefWidth="290.0">
+                           <children>
+                              <VBox alignment="CENTER_LEFT" maxWidth="-Infinity" prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Label text="Log in" textFill="#4ea927">
+                                       <font>
+                                          <Font name="Berlin Sans FB Bold" size="18.0" />
+                                       </font></Label>
+                                    <TextField promptText="E-mail">
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </VBox.margin></TextField>
+                                    <TextField promptText="Senha">
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin></TextField>
+                                    <Button maxWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #4ea927;" text="Log in" textFill="WHITE">
+                                       <font>
+                                          <Font name="Berlin Sans FB Bold" size="14.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="320.0" prefWidth="230.0" style="-fx-background-color: #4ea927; -fx-background-radius: 20;">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #4ea927;" />
+                     </children></HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="600.0" visible="false">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #4ea927;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="120.0">
+                     <children>
+                        <Label text="POLIAR" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="24.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children></HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Home" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Explorar" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Notícias" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Perfil" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Sobre" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></HBox>
+               </children>
+            </HBox>
+            <VBox prefHeight="350.0" prefWidth="600.0" />
+         </children>
+      </VBox>
+       <VBox prefHeight="400.0" prefWidth="600.0" visible="false">
+           <children>
+               <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #4ea927;">
+                   <children>
+                       <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="120.0">
+                     <children>
+                        <Label text="POLIAR" textFill="#fffefe">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="24.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children></HBox>
+                       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Home" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Explorar" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Notícias" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Perfil" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Sobre" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></HBox>
+                   </children>
+               </HBox>
+               <VBox prefHeight="350.0" prefWidth="600.0" />
+           </children>
+       </VBox>
+       <VBox prefHeight="400.0" prefWidth="600.0" visible="false">
+           <children>
+               <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #4ea927;">
+                   <children>
+                       <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="120.0">
+                     <children>
+                        <Label text="POLIAR" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children></HBox>
+                       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Home" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Explorar" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Notícias" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Perfil" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Sobre" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></HBox>
+                   </children>
+               </HBox>
+               <VBox prefHeight="350.0" prefWidth="600.0" />
+           </children>
+       </VBox>
+       <VBox prefHeight="400.0" prefWidth="600.0" visible="false">
+           <children>
+               <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #4ea927;">
+                   <children>
+                       <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="120.0">
+                     <children>
+                        <Label text="POLIAR" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children></HBox>
+                       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Home" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Explorar" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Notícias" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Perfil" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Sobre" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></HBox>
+                   </children>
+               </HBox>
+               <VBox prefHeight="350.0" prefWidth="600.0" />
+           </children>
+       </VBox>
+       <VBox prefHeight="400.0" prefWidth="600.0" visible="false">
+           <children>
+               <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #4ea927;">
+                   <children>
+                       <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="120.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <children>
+                        <Label text="POLIAR" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="24.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children></HBox>
+                       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Home" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Explorar" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Notícias" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Perfil" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #4ea927;" text="Sobre" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="Berlin Sans FB Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></HBox>
+                   </children>
+               </HBox>
+               <VBox prefHeight="350.0" prefWidth="600.0" />
+           </children>
+       </VBox>
+      <VBox prefHeight="400.0" prefWidth="600.0" visible="false" />
+   </children>
+</Pane>
